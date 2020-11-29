@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>جمعية السماحة الخيرية</title>
+        <!---- Start Meta Tages----->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="الموقع بتاع اي شرح ">
+        <meta name="keywords" content="كلمات الى المستخدم هيبحث بيها عن الموقع">
+        <meta name="og:title" content="اسم الموقع">
+        <meta name="og:url" content=" لينك الموقع">
+        <meta name="og:type" content="محتةى الموقع بيقدم اى">
+        <meta name="og:description" content="{{$meta_description}}">
+        <meta name="og:image" content="logo">
+        <meta name="og:locale" content="ar">
+        <meta name="og:site_name" content="اسم الموقع">
+        <meta name="twitter:title" content="home page | الصفحة الرئيسية">
+        <meta name="twitter:card" content="">
+        <meta name="twitter:description" content="">
+        <!---- End Meta Tages----->
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/freamwork.css">
+        <link rel="shortcut icon" href="img/logo.png">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="css/index.css">
+        
+    </head> 
+    <body>
+        
+        <!------------------start header------------------>
+       <header class="bg-light pt-3 ">
+           <!------------------------start navbar--------------------->
+         <nav class="navbar navbar-expand-lg navbar-light  container">
+             
+              <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">من نحن</a>
+                  </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">مشاريع الجمعية</a>
+                  </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">معرض الصور</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">الاتصال بنا</a>
+                  </li>
+                  </ul>
+                  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+   انضم بنا
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title"> انضم بنا</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+            <div class="form" style="background-color: transparent">
+        <form action="/action_page.php" style="width: 100%;">
+            <div class="form-group">
+                <label for="email">الاسم</label>
+                <input type="text" class="form-control" placeholder="ادخل الاسم" id="uname">
+              </div>
+              <div class="form-group">
+                <label for="email">الايميل</label>
+                <input type="email" class="form-control" placeholder="ادخل الايميل" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">الباسورد</label>
+                <input type="password" class="form-control" placeholder="ادخل الباسورد" id="pwd">
+              </div>
+             
+              <button type="submit" class="btn btn-primary">ارسال</button>
+        </form>
+        </div>
+            
+            
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal" style="margin-left: auto">اغلاق</button>
+        </div>
+        </div>
+      </div>
+    </div>
+        <!--  <button class="btn btn-success my-2 my-sm-0" type="submit">انضم </button>-->
+
+              </div>
+           </nav>
+        <!-------------------------start slider---------------------->   
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" id="carouselExampleInterval">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              </ol>
+            
+              <div class="carousel-inner" data-interval="1000">
+                <div class="carousel-item active">
+                  <img src="img/slider-4.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>مشاريع سقيا الماء</h5>
+                    <p>متخصصون في سقيا الماء بمنطقة شمال كردفان بالسودان بشكل خيري وغير ربحي </p>
+                    <button class="btn btn-success my-2 my-sm-0 p-2" type="submit">تفاصيل اكثر</button>  
+                  </div>
+                </div>
+                  
+                <div class="carousel-item">
+                  <img src="img/slider-5.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>مشاريع سقيا الماء</h5>
+                    <p>متخصصون في سقيا الماء بمنطقة شمال كردفان بالسودان بشكل خيري وغير ربحي </p>
+                    <button class="btn btn-success my-2 my-sm-0 p-2" type="submit">تفاصيل اكثر</button> 
+                  </div>
+                </div>
+               
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+           </div>
+        </header>
+        <!-----------------end header--------------------->
+        
+        <div class="bg-green">
+            <div class="header-text container p-4">
+                <span class="float-right">جمعية خيرية غير ربحية تعنى بسقيا الماء في السودان لعموم المسلمين </span>
+                <button class="btn btn-success my-2 my-sm-0 p-2 border-white" type="submit"> تبرع الان</button> 
+            </div>
+        </div>
+        
+         <!------------------start who us------------------>
+        <div class="who-us d-flex flex-row container row mx-auto">
+            <div class="card col-xs-12 col-sm-12 col-md-6 mx-auto col-lg-4 col-xl-4 border-0" style="width: 18rem;">
+              <img src="img/causes_16.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mx-auto">كفالة اليتيم</h5>
+                <p class="card-text">جمعية خيرية غير ربحية تعنى بسقيا الماء في السودان لعموم المسلمين .</p>
+              </div>
+            </div>
+            
+            <div class="card col-xs-12 col-sm-12 mx-auto col-md-6 col-lg-4 col-xl-4 border-0" style="width: 18rem;">
+              <img src="img/charity3.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">دعم الاسر الفقيرة</h5>
+                <p class="card-text">جمعية خيرية غير ربحية تعنى بسقيا الماء في السودان لعموم المسلمين .</p>
+              </div>
+            </div>
+            
+            <div class="card col-xs-12 col-sm-12 mx-auto col-md-6 col-lg-4 col-xl-4 border-0" style="width: 18rem;">
+              <img src="img/charity-2.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mx-auto">حفر الابار</h5>
+                <p class="card-text">جمعية خيرية غير ربحية تعنى بسقيا الماء في السودان لعموم المسلمين .</p>
+              </div>
+            </div>
+        </div>
+         <!------------------end who us------------------>
+        
+        <!------------------start project------------------>
+        <div class="all ">
+            <div class="text-center">
+                <p class=" text-success">مشاريع جمعية السماحة الخيرية</p>
+                <h2 class=" text-white">مشاريع الجمعية</h2>
+           </div>
+  
+             <div class="who-us2 d-flex flex-row container row mx-auto">
+            <div class="card col-xs-12 col-sm-12 col-md-6 mx-auto col-lg-4 col-xl-4 border-0" style="width: 18rem; background-color: transparent">
+              <img src="img/img-g-3-600x450.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mx-auto text-white">باقات الخير</h5>
+              </div>
+            </div>
+            
+            <div class="card col-xs-12 col-sm-12 mx-auto col-md-6 col-lg-4 col-xl-4 border-0" style="width: 18rem; background-color: transparent">
+              <img src="img/img-g-4-600x450.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title text-white">لنضئ حياتهم-فرحة</h5>
+              </div>
+            </div>
+            
+            <div class="card col-xs-12 col-sm-12 mx-auto col-md-6 col-lg-4 col-xl-4 border-0" style="width: 18rem; background-color: transparent">
+              <img src="img/img-g-5-600x450.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mx-auto text-white">كفالة اسره</h5>
+              </div>
+            </div>
+        </div>
+            <div class="project-btn mx-auto">
+                <button class="btn btn-success border-white" type="submit">جميع المشاريع</button> 
+             </div>   
+           </div> 
+         <!------------------end project------------------>
+        
+         <!------------------start project------------------>
+        <div class="all2">
+            <div class="text-center">
+                <p class=" text-success">مشاريع جمعية السماحة الخيرية</p>
+                <h2 style="color: green">مشاريع الجمعية</h2>
+           </div>
+  
+             <div class="who-us3 d-flex flex-row container row mx-auto">
+            <div class="card col-xs-12 col-sm-12 col-md-6 mx-auto col-lg-4 col-xl-4 border-0" style="width:18rem; background-color: transparent">
+              <img src="img/family-150x150.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mx-auto ">الاسر المستفيدة</h5>
+                  <h6 class="card-title mx-auto ">5856</h6>
+              </div>
+            </div>
+            
+            <div class="card col-xs-12 col-sm-12 mx-auto col-md-6 col-lg-4 col-xl-4 border-0" style="width: 18rem; background-color: transparent;">
+              <img src="img/girl-150x150.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">الجهات المستندة</h5>
+                  <h6 class="card-title mx-auto">12</h6>
+              </div>
+            </div>
+            
+            <div class="card col-xs-12 col-sm-12 mx-auto col-md-6 col-lg-4 col-xl-4 border-0" style="width: 18rem; background-color: transparent">
+              <img src="img/maternity-150x150.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mx-auto">برامج عامة للأيتام</h5>
+                <h6 class="card-title mx-auto">5856</h6>
+              </div>
+            </div>
+        </div>
+           
+           </div> 
+         <!------------------end project------------------>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1764264.6345926789!2d31.77414838546544!3d30.270442693190006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f66bb7cef4dd75%3A0x6ba644a24d8c6d24!2z2KzZhdi52YrYqSDYp9mE2KfZiNix2YXYp9mG!5e0!3m2!1sar!2seg!4v1603318179080!5m2!1sar!2seg" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" c></iframe>
+        <!---------------------------map----------------------->
+        <div class="form">
+        <form action="/action_page.php" style="width: 45%;">
+            <div class="form-group">
+                <label for="email">الاسم</label>
+                <input type="text" class="form-control" placeholder="ادخل الاسم" id="uname">
+              </div>
+              <div class="form-group">
+                <label for="email">الايميل</label>
+                <input type="email" class="form-control" placeholder="ادخل الايميل" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">الباسورد</label>
+                <input type="password" class="form-control" placeholder="ادخل الباسورد" id="pwd">
+              </div>
+             
+              <button type="submit" class="btn btn-primary">ارسال</button>
+        </form>
+        </div>
+        
+        
+        <div class="loader">
+            <div class="sk-folding-cube">
+              <div class="sk-cube1 sk-cube"></div>
+              <div class="sk-cube2 sk-cube"></div>
+              <div class="sk-cube4 sk-cube"></div>
+              <div class="sk-cube3 sk-cube"></div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+
+    <!--<script src="js/jquery-3.2.1.min.js"></script>-->
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+       <script src="js/main.js"></script>
+    </body>
+</html>
